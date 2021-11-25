@@ -8,6 +8,10 @@ class clsMain:
   def main(self):
     acs = ACS712()
     acs.calibrate()
+    
+    for i in range(1,50):
+      currA = acs.getCurrentAC(freq=50)
+      print("Amps=", currA)
 
 print("App start")
 m1 = clsMain()
