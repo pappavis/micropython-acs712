@@ -63,13 +63,13 @@ class ACS712:
         return I
     
     def getCurrentAC(self, freq=50):
-        period = 1000000 / freq
-        t_start = time.ticks_ms()
+        period = 10000 / freq
+        t_start = int(time.ticks_ms() / 100)
         Isum = 0
         msr_cnt = 0
         Inow = None;
         
-        while (time.ticks_ms() - t_start < period):
+        while ((time.ticks_ms() / 100) - t_start < period):
             Inow = self._adc.read() - self.zeroPoint
             Isum += Inow * Inow
             msr_cnt += 1
