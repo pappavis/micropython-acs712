@@ -7,8 +7,11 @@ class clsMain:
   
   def main(self):
     acs = ACS712()
+    print("Calibreren..")
     acs.calibrate()
+    print("Zeropoint=", acs.zeroPoint, "sensitivity=", acs.sensitivity)
     
+    print("Start met meten")
     for i in range(1,50):
       currA = acs.getCurrentAC(freq=50)
       print("Amps=", currA)
@@ -17,3 +20,4 @@ print("App start")
 m1 = clsMain()
 m1.main()
 print("App eind")
+
