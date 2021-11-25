@@ -1,7 +1,7 @@
 # micropython-acs712
 Measure AC current using ESP8266
 
-Let op: 240V is LEVENSGEVAARLIJK!!
+Let op: 240V is **_LEVENSGEVAARLIJK_**. Je kunt zware electrische schok opdoen.
 
 Voorbeeld gebruik van de bibliotheek.
 ```python
