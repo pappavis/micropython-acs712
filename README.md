@@ -2,7 +2,7 @@
 Measure AC current using ESP8266
 
 
-'''python
+'''shell
 # demo AC stroom uitlezen met ACS712 sensor
 from acs712 import ACS712
 
