@@ -2,7 +2,7 @@
 Measure AC current using ESP8266
 
 
-'''shell
+```
 # demo AC stroom uitlezen met ACS712 sensor
 from acs712 import ACS712
 
@@ -22,7 +22,7 @@ print("App start")
 m1 = clsMain()
 m1.main()
 print("App eind")
-'''
+```
 
 <img src="https://thesolaruniverse.files.wordpress.com/2019/06/046_hall_fig_01_96_dpi-1.png?w=611&h=489&zoom=2" width="40%" height="40%">
 
