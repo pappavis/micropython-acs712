@@ -78,6 +78,4 @@ class ACS712:
         Irms = sqrt(Isum / msr_cnt) / self.ADC_SCALE * VREF / self.sensitivity
         return Irms
 
-acs = ACS712()
-acs.calibrate()
 
