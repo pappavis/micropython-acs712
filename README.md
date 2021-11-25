@@ -29,6 +29,16 @@ m1.main()
 print("App eind")
 ```
 
+Dan zie je output als deze:
+```
+>>> %Run -c $EDITOR_CONTENT
+App start
+Calibreren..
+Zeropoint= 736.2 sensitivity= 0.185
+Start met meten
+Amps= 0.0
+```
+
 Zo sluit je hem aan.
 
 <img src="https://thesolaruniverse.files.wordpress.com/2019/06/046_hall_fig_01_96_dpi-1.png?w=611&h=489&zoom=2" width="40%" height="40%">
