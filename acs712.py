@@ -75,7 +75,7 @@ class ACS712:
             msr_cnt += 1
         pass
         
-        Irms = sqrt(Isum / msr_cnt) / self.ADC_SCALE * VREF / self.sensitivity
+        Irms = math.sqrt(Isum / msr_cnt) / self.ADC_SCALE * self.VREF / self.sensitivity
         return Irms
 
 
