@@ -9,7 +9,7 @@ class ACS712:
         self.sensitivity = 0
         self._pin = pin
         self.ADC_SCALE = 1023.0
-        self.VREF = 0
+        self.VREF = 5.0
         self.DEFAULT_FREQUENCY = 50
         self._adc = None
         
