@@ -45,6 +45,6 @@ Zo sluit je hem aan.
 
 Schema: credits  opengreenenergy
 
-<img src="https://content.instructables.com/ORIG/FE6/SEBT/JHQJG94V/FE6SEBTJHQJG94V.jpg?auto=webp&frame=1&width=978&height=1024&fit=bounds&md=26fe5c56de5170bb508c4e134169a393" width="40%" height="40%" alt="stroomschema">
+<img src="https://content.instructables.com/ORIG/FE6/SEBT/JHQJG94V/FE6SEBTJHQJG94V.jpg?auto=webp&frame=1&width=978&height=1024&fit=bounds&md=26fe5c56de5170bb508c4e134169a393" width="60%" height="60%" alt="stroomschema">
 
 door: Michiel Erasmus
