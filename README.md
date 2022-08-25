@@ -44,6 +44,7 @@ Zo sluit je hem aan.
 <img src="https://thesolaruniverse.files.wordpress.com/2019/06/046_hall_fig_01_96_dpi-1.png?w=611&h=489&zoom=2" width="40%" height="40%">
 
 Schema: credits  opengreenenergy
+
 <img src="https://content.instructables.com/ORIG/FE6/SEBT/JHQJG94V/FE6SEBTJHQJG94V.jpg?auto=webp&frame=1&width=978&height=1024&fit=bounds&md=26fe5c56de5170bb508c4e134169a393" width="40%" height="40%" alt="stroomschema">
 
 door: Michiel Erasmus
